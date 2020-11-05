@@ -1,8 +1,9 @@
 {
-  "name": "my-speech",
-  "version": "1.0.0",
+  "name": "my-speech-synth",
+  "version": "1.0.1-alpha",
   "description": "A simple package that allows you to easily implements speech synthesis on your website.",
-  "main": "index.js",
+  "main": "main.js",
+  "types": "./dist/index.d.ts",
   "author": "Petterson <58094725+hahuma@users.noreply.github.com>",
   "license": "MIT",
   "private": false,

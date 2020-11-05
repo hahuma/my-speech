@@ -2,8 +2,6 @@ const utteranceObject = new SpeechSynthesisUtterance()
 
 type Languages = "en-US" | "en-GB" | "es-ES" | "fr-FR" | "it-IT" | "de-DE" | "ja-JP" | "ko-KR" | "zh-CN" | "en-IN" | "sv-SE" | "fr-CA" | "he-IL" | "id-ID" | "es-AR" | "nl-BE" | "en" | "ro-RO" | "pt-PT" | "th-TH" | "en-AU" | "sk-SK" | "hi-IN" | "pt-BR" | "hu-HU" | "zh-TW" | "el-GR" | "ru-RU" | "en-IE" | "nb-NO" | "es-MX" | "da-DK" | "fi-FI" | "zh-HK" | "ar-SA" | "en-ZA" | "nl-NL" | "tr-TR" | "pl-PL" | "cs-CZ";
 
-
-
 function speakError(): Error  {
     throw new Error('You must set a text first')
 }
